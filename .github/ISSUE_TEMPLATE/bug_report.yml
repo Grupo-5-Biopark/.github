@@ -1,39 +1,38 @@
-name: 🐛Bug Report
-description: File a bug report here
+name: 🐛 Reporte de Bug
+description: Reportar um problema ou erro encontrado
 title: "[BUG]: "
-labels: ["bug"]
-assignees: ["guiigos"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report 🤗
-        Make sure there aren't any open/closed issues for this topic 😃
-        
   - type: textarea
     id: bug-description
     attributes:
-      label: Description of the bug
-      description: Give us a brief description of what happened and what should have happened
+      label: Descrição do bug
+      description: O que aconteceu e o que deveria ter acontecido.
     validations:
       required: true
-      
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
+      label: Passos para reproduzir
+      description: Explique como reproduzir o bug.
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
+        1. Vá para '...'
+        2. Clique em '...'
+        3. Role até '...'
+        4. Veja o erro
     validations:
       required: true
-      
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Comportamento esperado
+      description: O que você esperava que acontecesse.
+    validations:
+      required: true
+
   - type: textarea
     id: additional-information
     attributes:
-      label: Additional Information
-      description: |
-        Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
+      label: Informações adicionais
+      description: Logs, prints de tela ou qualquer outro detalhe que ajude a resolver o bug.
