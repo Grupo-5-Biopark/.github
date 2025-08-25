@@ -14,12 +14,7 @@ body:
     id: business-rules
     attributes:
       label: Regras de negócio
-      description: Liste em formato de tabela as regras de negócio relacionadas a essa funcionalidade.
-      placeholder: |
-        | Regra | Descrição |
-        |-------|-----------|
-        | RN01  | Exemplo de regra de negócio |
-        | RN02  | Outra regra importante |
+      description: Liste as regras de negócio que devem ser aplicadas.
 
   - type: textarea
     id: screens
