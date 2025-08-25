@@ -6,32 +6,29 @@ body:
     id: feature-description
     attributes:
       label: Descrição da funcionalidade
-      description: Explique a funcionalidade ou melhoria desejada.
+      description: Explique de forma clara o que deve ser desenvolvido.
     validations:
       required: true
 
   - type: textarea
-    id: problem-to-solve
+    id: business-rules
     attributes:
-      label: Problema a ser resolvido
-      description: Qual problema essa funcionalidade resolve? Por que seria útil?
-    validations:
-      required: true
+      label: Regras de negócio
+      description: Liste em formato de tabela as regras de negócio relacionadas a essa funcionalidade.
+      placeholder: |
+        | Regra | Descrição |
+        |-------|-----------|
+        | RN01  | Exemplo de regra de negócio |
+        | RN02  | Outra regra importante |
 
   - type: textarea
-    id: proposed-solution
+    id: screens
     attributes:
-      label: Solução proposta
-      description: Caso já tenha uma ideia de como implementar, descreva aqui.
+      label: Prints/Telas
+      description: Anexe ou descreva as telas que devem ser feitas (wireframes, mockups ou prints).
 
   - type: textarea
-    id: alternatives
+    id: notes
     attributes:
-      label: Alternativas consideradas
-      description: Outras formas que você pensou para resolver esse problema.
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Informações adicionais
-      description: Prints, exemplos, referências ou qualquer outro detalhe relevante.
+      label: Observações
+      description: Informações extras relevantes para o desenvolvimento.
