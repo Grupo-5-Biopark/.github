@@ -5,6 +5,8 @@ body:
   - type: textarea
     id: bug-description
     attributes:
+      label: Descrição do bug
+      description: O que aconteceu e o que deveria ter acontecido.
     validations:
       required: true
 
